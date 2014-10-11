@@ -15,7 +15,7 @@ d1 <- (filter(d, d$Date == '1/2/2007' | d$Date == '2/2/2007'));
 
 ## Plot 1 - histogram
 
-png(filename="Plot1.png", width=480, height=480, bg="white");
+png(filename="plot1.png", width=480, height=480, bg="white");
 
 hist(
     as.numeric(d1$Global_active_power), 

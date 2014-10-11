@@ -14,7 +14,7 @@ d1 <- (filter(d, d$Date == '1/2/2007' | d$Date == '2/2/2007'));
 
 ## Plot 3 -- three line
 
-png(filename="Plot3.png", width=480, height=480, bg="white");
+png(filename="plot3.png", width=480, height=480, bg="white");
 
 plot(d3$aat, d3$Sub_metering_1, type="l", ylab="Energy sub metering")
 lines(d3$aat, d3$Sub_metering_2, type="l", col="red")
